@@ -3,12 +3,14 @@ package testproj;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class Testfile {
 	
 	static ChromeDriver driver;
 
-	public static void main(String[] args) {
+	@Test
+	public void testone() throws Exception  {
 		// TODO Auto-generated method stub
 		
 		System.out.println("This is a test file");

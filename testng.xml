@@ -3,7 +3,7 @@
 <suite name="Suite" verbose="3">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testproj.Testfile"/>
+      <class name="acme.RunTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

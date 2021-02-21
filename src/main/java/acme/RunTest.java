@@ -47,7 +47,7 @@ public class RunTest {
 
 	public void takeSnap() {
 		try {
-			FileUtils.copyFile(driver.getScreenshotAs(OutputType.FILE), new File("./snaps/1.png"));
+			FileUtils.copyFile(driver.getScreenshotAs(OutputType.FILE), new File("./snap1.png"));
 		} catch (WebDriverException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
